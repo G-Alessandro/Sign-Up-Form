@@ -1,0 +1,45 @@
+@font-face {
+    font-family: Norse-Bold;
+    src: url(fonts/Norse-Bold.otf);
+}
+
+body {
+    display: flex;
+    margin: 0px;
+}
+
+.imgContainer {
+    width: 30vw;
+    height: auto;
+}
+
+.plantImg {
+    width: 100%;
+}
+
+.container {
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.box1 {
+    /* height: 35%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(245, 244, 244);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 150%;
+    font-weight: 700;
+}
+
+.box2 {
+    /* height: 50vh; */
+    background-color: white;
+}
+
+.box3 {
+    height: 40%;
+    background-color: rgb(245, 244, 244);
+}
