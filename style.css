@@ -6,6 +6,7 @@
 body {
     display: flex;
     margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .imgContainer {
@@ -29,7 +30,6 @@ body {
     align-items: center;
     padding-left: 5vw;
     background-color: rgb(245, 244, 244);
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 2vw;
     font-weight: 700;
 }
@@ -44,7 +44,6 @@ body {
 }
 
 h1 {
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 2vw;
     font-weight: 700;
 }
@@ -57,7 +56,6 @@ h1 {
 .input1,.input2 {
     display: flex;
     flex-direction: column;
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 0.8vw;
     font-weight: 700;
 }
@@ -95,7 +93,6 @@ input:invalid {
 
 .passNotMatch {
     color: rgb(179, 0, 0);
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 0.8vw;
     font-weight: 700;
     margin: 0;
@@ -103,5 +100,28 @@ input:invalid {
 
 .box3 {
     height: 40%;
+    padding-left: 5vw;
     background-color: rgb(245, 244, 244);
+}
+
+.subBtn {
+    width: 13vw;
+    height: 5vh;
+    color: white;
+    font-size: 100%;
+    font-weight: 700;
+    margin-top: 5vh;
+    margin-bottom: 2vh;
+    background-color: #596d48;
+    border-radius: 7px;
+}
+
+.pBox3 {
+    font-weight: 700;
+}
+
+.login {
+    text-decoration: none;
+    color: #596d48;
+    font-weight: 700;
 }
