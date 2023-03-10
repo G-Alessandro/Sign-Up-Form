@@ -78,10 +78,27 @@ input {
     border-radius: 2px;
 }
 
+input[type="password"] {
+    margin-bottom: 0;
+}
+
 input:focus {
     outline: rgb(38, 38, 248);
     border-color: rgb(38, 38, 248);
     box-shadow: 1px 1px 3px 2px rgb(122, 122, 122);
+}
+
+input:invalid {
+    outline: rgb(179, 0, 0);
+    border-color:rgb(179, 0, 0);
+}
+
+.passNotMatch {
+    color: rgb(179, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8vw;
+    font-weight: 700;
+    margin: 0;
 }
 
 .box3 {

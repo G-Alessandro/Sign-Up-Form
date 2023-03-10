@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class="imgContainer">
-        <img src="/images/halie-west-unsplash.jpg" class="plantImg" alt="green plant wet from the rain">
+        <img src="./images/halie-west-unsplash.jpg" class="plantImg" alt="green plant wet from the rain">
         <!-- <img src="images/odin-lined.png" alt=""> -->
     </div>
     <div class="container">
@@ -25,9 +25,9 @@
             You know you want to.
             </p>
         </div>
-        <div class="box2">
-            <h1>Let's do this!</h1>
-            <form action="post">
+        <form action="" method="post">
+            <div class="box2">
+                <h1>Let's do this!</h1>
                 <div class="inputContainer">
 
                     <div class="input1">
@@ -39,28 +39,30 @@
                         <input type="email" id="email" name="email">
 
                         <label for="password">PASSWORD</label>
-                        <input type="password" id="password" name="password">
+                        <input type="password" id="password" name="password" required>
 
+                            
                     </div>
                     <div class="input2">
-
+                            
                         <label for="last-name">LAST NAME</label>
                         <input type="text" id="last-name" name="last-name">
-
+                            
                         <label for="phone-number">PHONE NUMBER</label>
                         <input type="tel" id="phone-number" name="phone-number">
-
+                            
                         <label for="confirm-password">CONFIRM PASSWORD</label>
-                        <input type="password" id="confirm-password" name="confirm-password"
-                                pattern="">
-
+                        <input type="password" id="confirm-password" name="confirm-password" required>
+                            
                     </div>
                 </div>
-            </form>
-        </div>
-        <div class="box3">
-
-        </div>
+                <p class="passNotMatch">* Passwords do not match</p>
+            </div>
+            <div class="box3">
+                <button type="submit" class="subBtn">Create Account</button>
+                <p>Already have an account?<a href="" target="_blank" class="login">Log in</a></p>
+            </div>
+        </form>
     </div>
 
 </body>
