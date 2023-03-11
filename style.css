@@ -49,6 +49,18 @@ body {
     font-size: 6rem;
 }
 
+.artistCreditContainer {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 80%;
+}
+
+.artistCreditImage,a {
+    color: white;
+}
+
 .container {
     display: flex;
     flex-direction: column;
@@ -99,7 +111,7 @@ input {
     width: 200px;
     background-color: rgb(245, 244, 244);
     margin-bottom: 9%;
-    border: 1px solid gray;
+    border: 1px solid #e5e7eb;
     border-radius: 2px;
 }
 
