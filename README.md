@@ -10,6 +10,6 @@
   <li>Practiced using relative length units rem, vw, vh</li>
 </ul>
 
-<h3>Image credit:</H3>
+<h3>Image of plants credit:</H3>
 
 <a href="https://unsplash.com/it/foto/25xggax4bSA">Halie West</a>
