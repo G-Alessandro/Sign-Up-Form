@@ -12,4 +12,4 @@
 
 <h3>Image of plants credit:</H3>
 
-<a href="https://unsplash.com/it/foto/25xggax4bSA" target="_blank">Halie West</a>
+<a href="https://unsplash.com/it/foto/25xggax4bSA">Halie West</a>
