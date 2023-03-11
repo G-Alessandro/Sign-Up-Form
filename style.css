@@ -103,12 +103,15 @@ h1 {
 }
 
 label {
+    font-size: 0.8rem;
+    font-weight: 700;
     margin-bottom: 1%;
 }
 
 input {
     height: 20px;
     width: 200px;
+    font-weight: 700;
     background-color: rgb(245, 244, 244);
     margin-bottom: 9%;
     border: 1px solid #e5e7eb;
@@ -145,11 +148,21 @@ input:invalid {
     height: 40px;
     color: white;
     font-size: 1rem;
+    font-weight: 700;
     margin-top: 5%;
     margin-bottom: 2%;
     background-color: #596d48;
     border-color: #596d48;
     border-radius: 7px;
+}
+
+.subBtn:hover {
+    background-color: #4b5c3c;
+}
+
+.subBtn:active {
+    box-shadow: 0 1px #666;
+    transform: translateY(1px);
 }
 
 .login {
