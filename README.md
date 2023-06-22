@@ -1,7 +1,7 @@
 # Sign-Up-Form
 
 <p>Sign Up Form created to understand how form work.</p>
-
+<a href="https://g-alessandro.github.io/Sign-Up-Form/">Live preview</a>
 <h2>Things I've learned:</h2>
 
 <ul>
